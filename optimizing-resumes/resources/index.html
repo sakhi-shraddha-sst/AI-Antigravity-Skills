@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Resume Optimizer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="app-container">
+        <aside class="sidebar">
+            <h2>Source Inputs</h2>
+            <textarea id="jd-input" placeholder="Paste Job Description here..."></textarea>
+            <div class="upload-zone" id="drop-zone">
+                <span>Upload Existing Resume (PDF/DOCX)</span>
+                <input type="file" id="resume-upload" hidden>
+            </div>
+            <button id="update-btn" class="primary-btn">Update Resume</button>
+        </aside>
+        
+        <main class="preview-pane">
+            <header class="preview-header">
+                <h2>Optimized Preview</h2>
+                <button id="download-btn" class="secondary-btn">Download PDF</button>
+            </header>
+            <div id="resume-preview" class="resume-paper">
+                <!-- AI Generated Content will appear here -->
+                <p class="placeholder">Update your resume to see results...</p>
+            </div>
+        </main>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
