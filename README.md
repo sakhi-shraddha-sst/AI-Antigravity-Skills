@@ -8,33 +8,15 @@ These skills empower the AI agent to handle specialized tasks with precision, fo
 
 Here is a breakdown of the currently available skills in this repository:
 
-### 1. 🏗️ **Create Playwright Frameworks** (`create-playwright-frameworks`)
-Generates a complete, production-ready Playwright automation framework from scratch using TypeScript. It scaffolds the project with a robust Page Object Model (POM) architecture, custom reporting, and base page utilities. 
-- **Use Case:** When starting a new end-to-end (E2E) UI automation project.
-
-### 2. 📝 **Generate ATS-Friendly Resumes** (`generating-ats-resumes`)
-Generates ATS-friendly resumes based on user input and job descriptions. It ensures proper formatting, targeted keywords, and job title matching to help applicants pass Applicant Tracking Systems.
-- **Use Case:** Ground-up creation of a resume tailored to a specific job description.
-
-### 3. 💼 **Generate LinkedIn Posts** (`generating-linkedin-posts`)
-Generates concise, high-engagement, and professional LinkedIn posts based on a provided topic. It focuses on strong hooks, value-driven insights, readability, and targeted hashtags while maintaining a professional tone.
-- **Use Case:** Creating impactful thought-leadership content or professional updates for LinkedIn.
-
-### 4. 🐦 **Generate Viral Tweets** (`generating-viral-tweets`)
-Generates clear, punchy, and highly engaging tweets optimized for X (formerly Twitter). It strictly adheres to platform policies, avoiding offensive content and engagement bait while maximizing visibility.
-- **Use Case:** Crafting click-worthy, professional short-form content for X.
-
-### 5. ✨ **Optimize Resumes** (`optimizing-resumes`)
-Tailors and optimizes existing resumes to match specific job descriptions. It identifies gaps, rewrites bullet points for maximum impact (using action verbs and metrics), and injects industry-specific keywords.
-- **Use Case:** Refining a user's existing CV to increase interview chances for a target role.
-
-### 6. 🔍 **Review Selenium Java Code** (`reviewing-selenium-java`)
-Acts as a Senior SDET to review Selenium and Java automation scripts. It detects anti-patterns (e.g., `Thread.sleep()`), syntax issues, framework design flaws, and provides an optimized, production-grade refactored version of the code.
-- **Use Case:** Code reviews, debugging, and refactoring of UI automation tests.
-
-### 7. 📋 **Standardize Test Plans** (`standardizing-test-plans`)
-Validates, corrects, and reorganizes user-uploaded test plans into a professional, standardized format. It evaluates structural correctness and completeness, without ever inventing missing information.
-- **Use Case:** Converting rough test notes or unstructured drafts into professional, standardized QA test plans.
+| Skill | Module Name | Description | Primary Use Case |
+| :--- | :--- | :--- | :--- |
+| 🏗️ **Create Playwright Frameworks** | `create-playwright-frameworks` | Scaffolds a complete, production-ready Playwright test framework in TypeScript with POM architecture. | Starting new E2E UI automation projects. |
+| 📝 **Generate ATS Resumes** | `generating-ats-resumes` | Generates highly optimized resumes with targeted keywords to easily pass Applicant Tracking Systems. | Building a resume to match a specific job description. |
+| 💼 **Generate LinkedIn Posts** | `generating-linkedin-posts` | Crafts high-engagement, value-driven LinkedIn thought-leadership posts with professional tone. | Quick creation of professional LinkedIn updates. |
+| 🐦 **Generate Viral Tweets** | `generating-viral-tweets` | Creates punchy, engaging tweets optimized for X visibility while adhering strictly to platform rules. | Crafting click-worthy short-form content for X. |
+| ✨ **Optimize Resumes** | `optimizing-resumes` | Modernizes existing resumes to match job descriptions by injecting keywords and powerful action verbs. | Refining existing CVs to maximize interview chances. |
+| 🔍 **Review Selenium Code** | `reviewing-selenium-java` | Audits and refactors Selenium/Java code to remove anti-patterns and enforce top SDET best practices. | Automated code reviews and refactoring for UI tests. |
+| 📋 **Standardize Test Plans** | `standardizing-test-plans` | Normalizes messy test plan drafts into a strict, professional format while identifying key gaps. | Converting rough QA notes into finalized test plans. |
 
 ## 🛠️ Usage
 
