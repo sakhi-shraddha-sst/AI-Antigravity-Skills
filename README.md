@@ -40,5 +40,10 @@ Validates, corrects, and reorganizes user-uploaded test plans into a professiona
 
 To utilize any of these skills, the AI agent must read the respective `SKILL.md` file located within each skill's directory. Each file contains specific instructions, workflows, and constraints required for execution.
 
+## 📑 Technical License
+Proprietary engineering tool designed for internal Automation Excellence.
+
+*Built with ❤️ for the QA Community. Focused on Engineering Efficiency and Data Sovereignty.*
+
 ---
 *Generated and maintained by Antigravity AI.*
